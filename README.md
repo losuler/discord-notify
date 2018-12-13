@@ -1,6 +1,6 @@
 # About
 
-Provides a simple way to recieve notifications of new messages from Discord through Telegram. Once a message is recieved on Discord the username of the sender is sent to Telegram through the Telegram Bot API. Before use of this program, please read the [disclaimer outlined below](#Disclaimer). 
+Provides a simple way to recieve notifications of new messages from Discord through Telegram. Once a message is recieved on Discord the username of the sender is sent to Telegram through the Telegram Bot API. Before use of this program, please read the [disclaimer outlined below](#disclaimer). 
 
 # Building
 
