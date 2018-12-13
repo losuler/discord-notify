@@ -4,7 +4,7 @@ Provides a simple way to recieve notifications of new messages from Discord thro
 
 The intended audience of this program is of users of AOSP (or one of its derivatives such as LineageOS) who do not have Google Play services. This is because apps like Discord rely on GCM or [FCM](https://firebase.google.com/docs/cloud-messaging/) to deliver push notifications, which is a service provided by Google Play services.
 
-Similar projects:
+## Similar projects:
 
 - [slack-to-telegram](https://github.com/dan-v/slack-to-telegram)
 
