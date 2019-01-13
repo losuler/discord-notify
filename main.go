@@ -11,8 +11,8 @@ import (
 	"log"
 	"flag"
 
-	"github.com/bwmarrin/discordgo"
-	"github.com/go-telegram-bot-api/telegram-bot-api"
+	"gopkg.in/bwmarrin/discordgo.v0"
+	"gopkg.in/go-telegram-bot-api/telegram-bot-api.v4"
 )
 
 var verbosePtr bool
