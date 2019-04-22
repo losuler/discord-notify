@@ -1,7 +1,7 @@
 [Unit]
 Description=Forwards notifications from Discord through Telegram.
-After=network.target
-Requires=network.target
+After=network-online.target
+Requires=network-online.target
 
 [Service]
 WorkingDirectory=/usr/local/bin/discord-notify
