@@ -6,7 +6,7 @@ The intended audience of this program is of users of AOSP (or one of its derivat
 
 ## Similar projects:
 
-- [slack-to-telegram](https://github.com/dan-v/slack-to-telegram)
+- https://github.com/dan-v/slack-to-telegram
 
 # Building
 
