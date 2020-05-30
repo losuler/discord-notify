@@ -6,7 +6,7 @@ Requires=network-online.target
 [Service]
 WorkingDirectory=/usr/local/bin/discord-notify
 ExecStart=/usr/local/bin/discord-notify/main
-Restart=no
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
