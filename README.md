@@ -1,14 +1,25 @@
-# About
+<div align="center">
+<p align="center">
+  <p align="center">
+    <h3 align="center">Discord Notify</h3>
+    <p align="center">
+      Receive notifications of new messages from Discord through Telegram.
+    </p>
+  </p>
+</p>
+</div>
+
+## About
 
 Provides a simple way to recieve notifications of new messages from Discord through Telegram. Once a message is recieved on Discord the username of the sender is sent to Telegram through the Telegram Bot API. Before use of this program, please read the disclaimer [outlined below](#disclaimer). 
 
 The intended audience of this program is of users of AOSP (or one of its derivatives such as [LineageOS](https://www.lineageos.org/) or [RattlesnakeOS](https://github.com/dan-v/rattlesnakeos-stack)) who do not have Google Play services. This is because apps like Discord rely on GCM or [FCM](https://firebase.google.com/docs/cloud-messaging/) to deliver push notifications, which is a service provided by Google Play services.
 
-## Similar projects:
+### Similar projects:
 
 - https://github.com/dan-v/slack-to-telegram
 
-# Building
+## Building
 
 To install the dependancies:
 
@@ -23,7 +34,7 @@ To compile:
 go build main.go
 ```
 
-# Configuration
+## Configuration
 
 The `conf.json` configuration file requires three entries (see `conf.json.example`).
 
@@ -34,12 +45,12 @@ The `conf.json` configuration file requires three entries (see `conf.json.exampl
 [//]: # (TODO: Make this process interactive, similar to the generation of the Telegram token.)
 `telegramChatID` refers to the Telegram user account, for which the ID can be obtained by messaging the Telegram bot `@get_id_bot`.
 
-# Usage
+## Usage
 
 ```
 ./main
 ```
 
-# Disclaimer
+## Disclaimer
 
 The use of a user account interacting with Discord's API, opposed to that of a bot, is implicitly against Discord's terms of service. Therefore use of this program may result in the **termination of your account**. I take no responsibility in the event this may occur. However, as I have no knowledge of this occuring and that the program interacts to a very minimal extent with the API, the percieved risk is low.
