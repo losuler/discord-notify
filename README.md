@@ -21,14 +21,7 @@ The intended audience of this program is of users of AOSP (or one of its derivat
 
 ## Building
 
-To install the dependancies:
-
-```
-go get gopkg.in/bwmarrin/discordgo.v0
-go get gopkg.in/go-telegram-bot-api/telegram-bot-api.v4
-```
-
-To compile:
+This will download dependencies before building.
 
 ```
 go build main.go
