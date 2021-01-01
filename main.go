@@ -59,7 +59,7 @@ func createLogin() {
 func retrieveFromJSON() (string, string, int64) {
 	var conf Conf
 
-	raw, err := ioutil.ReadFile("conf.json")
+	raw, err := ioutil.ReadFile("/etc/discord-notify.json")
 	if err != nil {
 		fmt.Println("Error reading JSON file,", err)
 		os.Exit(1)
